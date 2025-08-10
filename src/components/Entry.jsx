@@ -8,7 +8,7 @@ export default function Entry(props){
                 </div>
                 <div className="journal-entry-text">
                     <div>
-                        <img src=`${BASE_URL}src/assets/pointer.png` alt="pointer" />
+                        <img src={`${BASE_URL}src/assets/pointer.png`} alt="Description" />
                         <span>{props.country}</span>
                         <a href={props.googleMaps}>view on Google Maps</a>
                     </div>
