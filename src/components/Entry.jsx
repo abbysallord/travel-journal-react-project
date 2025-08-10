@@ -1,6 +1,7 @@
+import logo from "./src/assets/pointer.png"
+
 export default function Entry(props){
     const BASE_URL = import.meta.env.BASE_URL;
-    import logo from "./src/assets/pointer.png"
     return(
         <>
             <article className="journal-entry">
