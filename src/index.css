@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  transition: .9s;
+}
+
+body{
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-family: inter, sans-serif;
+}
+
+header nav img{
+  width: 36px;
+  margin-right: 7px;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+header{
+  background-color: #f55a5a;
+  height: 55px;
+  color: white;
+}
+
+header nav h1{
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+header:hover img{
+  rotate: Z 360deg;
+}
+
+header:hover h1{
+  letter-spacing: 3px;
+}
+
+header:hover{
+  background-color: purple;
+}
+
+article.journal-entry{
+  display: flex;
+  margin: 60px 100px;
+}
+
+.main-image-container{
+  width: 150px;
+  height: 275px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+  box-shadow: 0 0 10px grey;
+  transition: .3s;
+}
+
+.main-image-container:hover{
+  box-shadow: 5px 10px 15px grey;
+  transition: .5s;
+  margin-right: 10px;
+  transition: .3s;
+}
+
+.main-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.journal-entry-text{
+  margin-left: 20px;
+}
+
+.journal-entry-text img{
+  width: 1.2rem;
+}
+
+.journal-entry-text div{
+  display: flex;
+  align-items: center;
+}
+
+.journal-entry-text div span{
+  margin: 7px;
+}
+
+.journal-entry-text div a{
+  color: grey;
+}
+
+.hr{
+  width: 30rem;
+  display: flex;
+  margin-left: 72px;
+}
+
+.mtji{
+  width: 0rem;
+  height: 0rem;
+  margin-left: 0;
+  opacity: 0;
+  transition: .5s;
+}
+
+.journal-entry-text:hover > .mtji{
+  height: 2px;
+  width: 7.5rem;
+  opacity: 100%;
+  background-color: purple;
+  transition: .5s;
+}
