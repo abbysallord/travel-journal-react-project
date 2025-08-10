@@ -1,5 +1,6 @@
 export default function Entry(props){
     const BASE_URL = import.meta.env.BASE_URL;
+    import logo from "./src/assets/pointer.png"
     return(
         <>
             <article className="journal-entry">
@@ -8,7 +9,7 @@ export default function Entry(props){
                 </div>
                 <div className="journal-entry-text">
                     <div>
-                        <img src={`${BASE_URL}src/assets/pointer.png`} alt="Description" />
+                        <img src={`${BASE_URL}{logo}`} alt="Description" />
                         <span>{props.country}</span>
                         <a href={props.googleMaps}>view on Google Maps</a>
                     </div>
