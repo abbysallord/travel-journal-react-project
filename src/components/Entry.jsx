@@ -1,6 +1,6 @@
 export default function Entry(props){
+    const BASE_URL = import.meta.env.BASE_URL;
     return(
-        const BASE_URL = import.meta.env.BASE_URL;
         <>
             <article className="journal-entry">
                 <div className="main-image-container">
