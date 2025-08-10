@@ -1,5 +1,3 @@
-import logo from "./src/assets/pointer.png"
-
 export default function Entry(props){
     const BASE_URL = import.meta.env.BASE_URL;
     return(
@@ -10,7 +8,7 @@ export default function Entry(props){
                 </div>
                 <div className="journal-entry-text">
                     <div>
-                        <img src={`${BASE_URL}{logo}`} alt="Description" />
+                        <img src="https://pngimg.com/uploads/google_maps_pin/small/google_maps_pin_PNG79.png" alt="Description" />
                         <span>{props.country}</span>
                         <a href={props.googleMaps}>view on Google Maps</a>
                     </div>
